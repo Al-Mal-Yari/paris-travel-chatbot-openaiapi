@@ -1,14 +1,10 @@
-# Start your code here!
 import os
 from openai import OpenAI
 
-# Define the model to use
 model = "gpt-4o-mini"
 
-# Define the client
 client = OpenAI(api_key=os.environ.get("OpenAI_API_KEY)"))
 
-# Start coding here
 conversation = [
     {"role": "system", "content": "You are a virtual Parisian expert and travel guide for Peterman Reality Tours. Provide helpful, concise, and accurate information about Parisian landmarks and culture."}
 ]
